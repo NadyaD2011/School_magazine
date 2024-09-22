@@ -78,7 +78,9 @@ def main():
     klass_jurnal = create_klass_jurnal(klass)
     result, top = class_jurnal(klass_jurnal, 5, "bukva")
     result_analysis = analysis_performance(klass_jurnal)
-
+    print(result)
+    print(top)
+    print(result_analysis)
 
 if __name__ == "__main__":
     main()
